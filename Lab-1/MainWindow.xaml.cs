@@ -124,8 +124,6 @@ namespace Lab_1
 
             info.ShowDialog();
 
-
-
             ProjectList[lstProjectList.SelectedIndex].ProjectName = info.OutName;
             ProjectList[lstProjectList.SelectedIndex].Budget = Convert.ToInt32(info.budget);
             ProjectList[lstProjectList.SelectedIndex].AmountSpent = Convert.ToInt32(info.spent);
